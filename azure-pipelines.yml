@@ -37,7 +37,7 @@ steps:
   displayName: 'pytest'
 
   
-job:
+jobs:
 - job: work
   steps:
   - script: echo "hello, world"  
