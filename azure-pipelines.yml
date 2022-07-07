@@ -18,7 +18,7 @@ strategy:
   maxParallel: 2
 
 pool:
-  vmImage: $(imageName)
+  vmImage: $(vmImage)
 
 steps:
 - task: UsePythonVersion@0
