@@ -35,3 +35,10 @@ steps:
     pip install pytest pytest-azurepipelines
     pytest
   displayName: 'pytest'
+
+  
+job:
+- job: work
+  steps:
+  - script: echo "hello, world"  
+  displayName: 'Run a one-line script'
